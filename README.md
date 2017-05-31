@@ -8,7 +8,7 @@ Dockerize command line options can be specified using the the environment variab
 ### Example Usage
 
 ``` Dockerfile
-FROM bpasson/spring-boot-base
+FROM bpasson/spring-boot-base:8-jre
 
 COPY ./app.jar /app/app.jar
 
