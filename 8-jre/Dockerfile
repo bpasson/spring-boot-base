@@ -14,7 +14,7 @@ WORKDIR /app
 
 EXPOSE 8080
 
-COPY ../docker-entry.sh /
+COPY ./docker-entry.sh /
 ENTRYPOINT [ "/docker-entry.sh" ]
 
 CMD ["-?"]
